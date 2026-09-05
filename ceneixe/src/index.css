@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-atelier-bg: #F9F7F2;
+  --color-atelier-stone: #E2DCD5;
+  --color-atelier-tan: #D6C7B8;
+  --color-atelier-amber: #92400e;
+  --color-atelier-amber-hover: #b45309;
+}
+
+/* Custom scrollbar and subtle transitions */
+html {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}

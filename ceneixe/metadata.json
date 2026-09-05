@@ -1,0 +1,6 @@
+{
+  "name": "CENEIXE",
+  "description": "Taller de costura, sastrería y arreglos de ropa de alta precisión. Confección artesanal, transformación de prendas y atención personalizada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
