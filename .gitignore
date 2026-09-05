@@ -1,0 +1,17 @@
+﻿# Dependencias
+node_modules/
+package-lock.json
+
+# SO / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Env
+.env
+
+# Dist
+dist/
+build/
