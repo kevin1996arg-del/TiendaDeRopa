@@ -1,17 +1,9 @@
-﻿# Dependencias
-node_modules/
-package-lock.json
-
-# SO / IDE
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-*.log
-
-# Env
-.env
-
-# Dist
-dist/
+﻿node_modules/
 build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+ceneixe.zip

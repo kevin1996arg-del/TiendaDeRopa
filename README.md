@@ -1,24 +1,30 @@
-﻿# TiendaDeRopa
+﻿# CENEIXE - Taller Artesanal de Costura & Sastrería | Gamarra, Lima, Perú
 
-Tienda de ropa online - Proyecto creado el 2026-09-05.
+Proyecto unificado (antes TiendaDeRopa). Atelier en **Av. Aviación 470, Gamarra, La Victoria 15033, Lima, Perú**.
 
-Repositorio: https://github.com/kevin1996arg-del/TiendaDeRopa
+Moneda: **S/ (Soles Peruanos)** - IGV incluido. Contacto: **+51 1 234 5678** / WhatsApp **+51 912 345 678** / contacto@ceneixe.pe
 
-## Estructura
+Ver app en AI Studio: https://ai.studio/apps/7c10ceba-e86b-4e99-9e33-99aec06c6490
 
-- \index.html\ - Página principal
-- \css/style.css\ - Estilos
-- \js/app.js\ - Lógica principal
-- \img/\ - Imágenes
+## Requisitos
+Node.js 18+
 
-## Instalación
+## Ejecutar local
 
 \\\ash
-git clone https://github.com/kevin1996arg-del/TiendaDeRopa.git
-cd TiendaDeRopa
+npm install
+# configurar GEMINI_API_KEY en .env.local
+npm run dev    # http://localhost:3000
 \\\
 
-## Uso
+## Build
 
-Abrir \index.html\ en el navegador o usar un servidor local.
+\\\ash
+npm run build
+npm run preview
+\\\
 
+## Estructura
+- \src/components/\ - Navbar, Hero, ServicesSection, GallerySection, ProcessSection, ContactSection, Footer
+- \src/data/atelierData.ts\ - Datos centralizados (teléfono +51, dirección Gamarra, precios S/)
+- \public/\ - Assets estáticos
